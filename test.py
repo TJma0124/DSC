@@ -12,7 +12,7 @@ from model import *
 from multi_read_data import MemoryFriendlyLoader
 
 parser = argparse.ArgumentParser("SDCE")
-parser.add_argument('--data_path', type=str, default='./datasets/MIT/test',#UIEB178
+parser.add_argument('--data_path', type=str, default='./datasets/UIEB-S/test',#UIEB-S
                     help='location of the data corpus')
 parser.add_argument('--save_path', type=str, default='./results/MIT', help='location of the data corpus')
 # parser.add_argument('--model', type=str, default='./weights/weights_UnderwaterReal.pt', help='location of the data corpus')
